@@ -61,7 +61,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				player: {
+					bg: 'hsl(var(--player-bg))',
+					control: 'hsl(var(--player-control))',
+					'control-hover': 'hsl(var(--player-control-hover))'
+				},
+				progress: {
+					bg: 'hsl(var(--progress-bg))'
+				},
+				volume: {
+					bg: 'hsl(var(--volume-bg))'
+				},
+				lyrics: {
+					highlight: 'hsl(var(--lyrics-highlight))',
+					text: 'hsl(var(--lyrics-text))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-card': 'var(--gradient-card)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
